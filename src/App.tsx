@@ -1,16 +1,22 @@
-import { useState } from 'react'
+import { Header } from "./components/Header"
+import { Profile } from "./components/Profile";
+import { SearchForm } from "./components/searchForm";
 
+import { Wrapper } from "./components/Wrapper";
+import { Posts } from "./pages/Posts";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <Wrapper> 
+     <Header />
+     <Profile />
+     <SearchForm />
+     <Posts />
+    </Wrapper>
+      
+     
+  
   )
 }
 

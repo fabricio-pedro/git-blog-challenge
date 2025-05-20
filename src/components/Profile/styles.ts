@@ -3,7 +3,6 @@ import { styled } from "styled-components";
 export const ProfileContainer = styled.aside`
 
  width: 54rem;
- height: 13.25rem;
  background: ${(props) => props.theme['base-profile']};
  color: ${(props) => props.theme['base-text']};
  display: flex;
@@ -50,6 +49,7 @@ export const ProfileContainer = styled.aside`
 
         }
 
+
    }
    
    .description{
@@ -60,6 +60,24 @@ export const ProfileContainer = styled.aside`
         padding: 0 1.5rem;
         margin-bottom: 2rem;
         text-align: justify;
+
+        .misc{
+            display: flex;
+            gap: 1.5rem;
+            margin-top: 1rem;
+            font-size: 0.875rem;
+
+        span{
+            display:flex;
+            align-items: center;
+            gap: 0.40rem;
+        }
+           
+        
+        }
+
+
+
    }
 
     

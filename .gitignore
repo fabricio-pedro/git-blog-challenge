@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+.env.development
+
+https://api.github.com/search/issues?q=mark%20repo:fabricio-pedro/git-blog-challenge
